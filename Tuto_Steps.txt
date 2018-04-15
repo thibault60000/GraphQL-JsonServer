@@ -1,0 +1,17 @@
+npm ini
+npm install --save express express-graphql graphql lodash
+mkdir server.js
+import et listing server port 4000 (command: node server.js)
+Utilisation de server.use() pour utiliser le MiddleWare GraphQL avec graphiQL : Mais il manque un schéma
+creation dossier schema avec schema.js dedans
+npm install -g nodemon pour utiliser la command nodemon server.js pour autocompiler 
+Définition du schema graphQL et du premier type
+Créer faux users
+Création de la RootQuery en important lodash 
+Export le schema
+Importer le Schema dans server.js 
+test requetes sur graphiQL
+installation json server (command npm install -g json-server)
+creation fichier db.json a partir d'un json de données pour json server
+On supprime les données users en dur dans le code
+on install axios (command : npm install axios)
